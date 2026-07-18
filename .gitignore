@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+packages/*/node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Temp files
+tmp/
+.temp/
+.cache/
+*.log
+
+# Generated binaries
+*.exe
+*.exe~
+*.dll
+*.orig
+__debug_bin*
+
+# Go build cache
+.gocache/
+
+# Dev runtime
+.dev-pids/
+.dev-logs/
+.dev-data/
+
+# OS junk
+.DS_Store
+**/.DS_Store
+**/Thumbs.db
+._*
+__MACOSX/
+
+# Archive
+_archive/
+
+# Documentation (excluded from publication)
+/docs/
+/reference/
+
+# Scratch / experimental
+/scratch/
+
+# Local AI and editor config
+/.commandcode/
+/.devin/
+/.claude/
+/.vscode/
+
+# Local archives at repository root
+/*.zip
+/*.tar
+/*.tar.gz
+/*.7z
+
+# Local database files at repository root
+/*.db
+/*.sqlite
+/*.sqlite3
+
+# Compiled Go binaries
+/api
+/daemon
+/forge/api/api
+/forge/beacon/daemon
+/beacon/daemon
